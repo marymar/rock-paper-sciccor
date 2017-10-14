@@ -5,7 +5,7 @@ import java.util.Random;
 class Player {
 
     private Choice choice;
-    private String name;
+    private final String name;
 
     /**
      * The Player.

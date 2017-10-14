@@ -6,7 +6,7 @@ public enum Choice {
     SCISSOR("PAPER"),
     ROCK("SCISSOR");
 
-    private String beats;
+    private final String beats;
 
 
     Choice(String beats) {

@@ -5,7 +5,7 @@ public enum Score {
     TIE("tie"),
     LOOSE("loose");
 
-    String status;
+    final String status;
 
     Score(String status) {
         this.status = status;

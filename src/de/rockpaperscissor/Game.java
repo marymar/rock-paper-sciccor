@@ -1,7 +1,5 @@
 package de.rockpaperscissor;
 
-import java.util.ArrayList;
-
 class Game {
 
     private final Player player1;
