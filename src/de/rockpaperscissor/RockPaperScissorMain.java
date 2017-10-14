@@ -29,7 +29,7 @@ public class RockPaperScissorMain {
                 }
 
                 // PLAY
-                Choice choice = Choice.values()[Integer.valueOf(input) - 1];
+                Choice choice = choices[Integer.valueOf(input) - 1];
                 player.makeChoice(choice);
                 computer.makeChoice();
                 Score score = game.move();
