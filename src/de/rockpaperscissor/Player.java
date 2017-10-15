@@ -2,7 +2,7 @@ package de.rockpaperscissor;
 
 import java.util.Random;
 
-class Player {
+public class Player {
 
     private Choice choice;
     private final String name;
@@ -11,14 +11,14 @@ class Player {
      * The Player.
      * @param name Name of the player.
      */
-    Player(String name) {
+    public Player(String name) {
         this.name = name;
     }
 
     /**
      * Makes a random choice.
      */
-    void makeChoice() {
+    public void makeChoice() {
         Random random = new Random();
         int number = random.nextInt(3);
 
@@ -29,7 +29,7 @@ class Player {
      * Makes a choice in terms of given param.
      * @param choice The choice to set for this player.
      */
-    void makeChoice(Choice choice) {
+    public void makeChoice(Choice choice) {
 
         this.choice = choice;
     }

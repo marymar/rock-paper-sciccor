@@ -1,11 +1,11 @@
 package de.rockpaperscissor;
 
-class Game {
+public class Game {
 
     private final Player player1;
     private final Player player2;
 
-    Game(Player player1, Player player2) {
+    public Game(Player player1, Player player2) {
         this.player1 = player1;
         this.player2 = player2;
     }
@@ -15,7 +15,7 @@ class Game {
      * Returns the achieved score for player1.
      * @return Score
      */
-    Score move(){
+    public Score move(){
         Choice choice1 = this.player1.getChoice();
         Choice choice2 = this.player2.getChoice();
 
