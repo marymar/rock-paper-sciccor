@@ -12,13 +12,13 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class GameTest {
 
-    private Game game;
-    private Player player1;
-    private Player player2;
+    static private Game game;
+    static private Player player1;
+    static private Player player2;
 
 
     @BeforeAll
-    void initialize() {
+    static void initialize() {
         player1 = new Player("Tester");
         player2 = new Player("PC");
         game = new Game(player1, player2);
